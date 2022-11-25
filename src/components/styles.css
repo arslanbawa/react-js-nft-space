@@ -1,0 +1,221 @@
+/* HEADER CSS START*/
+
+.headerContainer {
+  padding: 33px 157px 150px 157px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo {
+  margin-right: 188px;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  max-width: 63px;
+  margin-right: 10px;
+}
+.logo p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #444444;
+  margin: 0;
+  font-family: "Lato";
+}
+.headerLinks ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 39px;
+}
+.headerLinks {
+  margin-right: 186px;
+}
+.headerLinks li {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #444444;
+  font-family: "Lato";
+}
+.headerRightLinks ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.loginLink {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #444444;
+  margin-right: 40px;
+  font-family: "Lato";
+}
+.headerRightLinks button {
+  padding: 12px 20px 12px 19px;
+
+  background: #099ebf;
+  border-radius: 5px;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  margin-right: 43px;
+  font-family: "Lato";
+}
+.mode {
+  max-width: 18px;
+}
+
+/* HEADER CSS ENDS*/
+
+/* BANNER CSS START*/
+
+.bannerContainer {
+  padding: 0px 165px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 150px;
+}
+.bannerContent {
+  padding-top: 65px;
+}
+.bannerContent h1 {
+  font-weight: 700;
+  font-size: 50px;
+
+  color: #444444;
+  font-family: "Lato";
+  margin-bottom: 50px;
+}
+.bannerContent .coloredText {
+  color: #099ebf;
+  font-family: "Lato";
+}
+.bannerContent .lineBreake {
+  display: block;
+}
+.bannerContent p {
+  font-weight: 700;
+  font-size: 18px;
+
+  color: #444444;
+  margin-bottom: 50px;
+
+  font-family: "Lato";
+}
+.bannerImg img {
+  max-width: 536px;
+}
+.bannerLinksWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.bannerLinksWrapper button {
+  padding: 14px 33px;
+
+  background: #099ebf;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+
+  text-align: center;
+
+  color: #ffffff;
+  margin-right: 47px;
+  font-family: "Lato";
+}
+.bannerLinks {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  align-items: center;
+}
+.rightArrow {
+  color: #099ebf;
+}
+/* BANNER CSS ENDS*/
+/* USERSTATES CSS STARTS*/
+.usersContainer {
+  padding: 0px 171px 150px;
+}
+.statesHeading {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+
+  color: #444444;
+  font-family: "Lato";
+  margin-bottom: 5px;
+}
+.statesText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  color: #099ebf;
+  font-family: "Lato";
+}
+.usersContentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vertical {
+  border-left: 3px solid #44444426;
+  height: 76px;
+}
+/* USERSTATES CSS ENDS*/
+/* Footer CSS STARTS*/
+
+.footerContainer {
+  padding: 0px 165px 61px;
+}
+.footerContainer h1 {
+  font-weight: 400;
+  font-size: 40px;
+  font-family: "Lato";
+  color: #444444;
+  margin-bottom: 52px;
+}
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.imageWrapper img {
+  width: 93px;
+  margin-bottom: 41px;
+}
+.contentWrapper h2 {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #444444;
+}
+.contentWrapper p {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 0px;
+  color: #444444;
+  max-width: 213px;
+}
+/* Footer CSS ENDS*/
